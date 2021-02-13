@@ -45,6 +45,7 @@ List of service file locations
 /lib/systemd/system/confluent-schema-registry.service
 /lib/systemd/system/confluent-zookeeper.service
 ```
+```
 sudo mkdir /var/lib/zookeeper
 sudo chown kafka:confluent /var/lib/zookeeper
 ```
