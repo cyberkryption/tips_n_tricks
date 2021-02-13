@@ -36,6 +36,8 @@ This will make it listen on an ip address rather than local host
 Service files
 In the zookeeper service files, there is a data dir that does not exist so we need to create it. The service file also specifies a user cp-kafka that does not exist
 
+List of service file locations
+```
 /lib/systemd/system/confluent-kafka-connect.service
 /lib/systemd/system/confluent-kafka-rest.service
 /lib/systemd/system/confluent-kafka.service
